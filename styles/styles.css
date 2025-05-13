@@ -1,0 +1,20 @@
+/*Pantallas grandes (más de 768px) */
+@media (min-width: 769px) {
+    body {
+        background-color: lightskyblue;
+    }
+}
+
+/*Pantallas medianas (entre 481px y 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: orange;
+    }
+}
+
+/*Pantallas pequeñas (480px o menos) */
+@media (max-width: 480px) {
+    body {
+        background-color: greenyellow;
+    }
+}
